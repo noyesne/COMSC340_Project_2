@@ -24,7 +24,7 @@ public class MergeSortV3 {
 		long end = System.nanoTime();
         long time = end - start; 
         System.out.println("\nThe runtime for " + array.length + " amount of keys is: " + time + " nanoseconds");
-        System.out.println("Amount of comparisons is: " + counter);
+        System.out.println("\nAmount of comparisons is: " + counter);
 	}	
 	
 	static void mergeArray(int len, int[] arr) {
